@@ -1,0 +1,41 @@
+<div class="wrap">
+    <form class="login-form" action="">
+        <div class="form-header">
+            <h3>Sign-Up Form</h3>
+            <p>Sign-Up to create your dashboard</p>
+        </div>
+         <!--Name Input-->
+        <div class="form-group">
+            <input type="text" class="form-input" placeholder="Full Name" name="name" [(ngModel)]="name" required>
+        </div>
+        <!-- Mobile Input-->
+        <div class="form-group">
+            <input type="text" class="form-input" placeholder="Mobile" name="mobile" [(ngModel)]="moblie" required>
+        </div>
+        <!--Email Input-->
+        <div class="form-group">
+            <input type="text" class="form-input" placeholder="Mail-id" name="email" [(ngModel)]="email" required>
+        </div>
+        <!--Password Input-->
+        <div class="form-group">
+            <input type="password" class="form-input" placeholder="Password" name="password" [(ngModel)]="password" required>
+        </div>
+        <!--Login Button-->
+        <div class="form-group">
+            <button class="form-button" type="submit" (click)="signup()" >Sign-Up</button>
+        </div>
+        <div class="form-footer">
+        Already have an account? <a href="login">Login</a>
+        </div>
+    </form>
+</div><!--/.wrap-->
+
+
+<footer class="footer">
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3" style="color: white;">© 2019 Copyright:
+          <a href="https://apc.delve.office.com/?u=2096e27a-3d60-4397-a5fb-69767aae98e4&v=work" style="color: white;">Anoop</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
